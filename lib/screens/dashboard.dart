@@ -1,5 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:superprocure_app/screens/incoming_board.dart';
+import 'package:superprocure_app/screens/outgoing_board.dart';
 import 'package:superprocure_app/services/constants.dart';
 import 'package:superprocure_app/screens/location_tracking.dart';
 import 'package:superprocure_app/widgets/pending_cards.dart';
@@ -163,8 +165,28 @@ class _DashBoardState extends State<DashBoard> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    BoardCard(cardText: 'Incoming'),
-                    BoardCard(cardText: 'Outgoing'),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const InBoard(),
+                          ),
+                        );
+                      },
+                      child: BoardCard(cardText: 'Incoming'),
+                    ),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const OutBoard(),
+                          ),
+                        );
+                      },
+                      child: BoardCard(cardText: 'Outgoing'),
+                    ),
                     GestureDetector(
                         onTap: () {
                           Navigator.push(
