@@ -1,16 +1,19 @@
 # superprocure_app
 
-A new Flutter project.
+This app utilises Google Maps SDK for Android and Map Directions API to demonstrate location tracking.
 
-## Getting Started
+Please generate API Key from Google Cloud to run this project.
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img alt="Screenshot-1" src="https://user-images.githubusercontent.com/40262579/155939231-11c4ef7a-0669-4936-b74e-068e1a88d931.png" width="25%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Screenshot-2" src="https://user-images.githubusercontent.com/40262579/155939246-123b2ec5-abf1-4903-8240-72e65da039bb.png" width="25%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+</p>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img alt="Screenshot-3" src="https://user-images.githubusercontent.com/40262579/155939251-338dee90-f2a0-4d78-b399-9333d720992b.png" width="25%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Screenshot-4" src="https://user-images.githubusercontent.com/40262579/155939262-3c3deacc-26ac-490a-a7b8-63f309c16ad5.png" width="25%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+</p>
